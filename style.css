@@ -1,0 +1,401 @@
+body{
+    background: rgba(197, 228, 231, 1);
+margin: auto;
+
+}
+
+.logo{
+    height: 53.13600158691406px;
+width: 86.66400146484375px;
+text-align: center;
+margin-left: 677px;
+margin-top: 50px;
+letter-spacing: 3px;
+margin-bottom: 30px;
+}
+
+.firstp{
+    height: 24px;
+  width: 40px;
+  font-family: Space mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgba(94, 122, 125, 1);
+  
+  }
+  
+  .main{
+    margin:auto;
+    height: 481px;
+width: 920px;
+border-radius: 25px;
+box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.2007);
+background: rgba(255, 255, 255, 1);
+display: flex;
+justify-content: space-around;
+
+
+  }
+  .left{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 48px;
+
+  }
+  .bill{
+    height: 48px;
+width: 379px;
+border-radius: 5px;
+background: rgba(243, 249, 250, 1);
+font-family: Space Mono;
+font-size: 24px; 
+font-weight: 700;
+line-height: 36px; 
+ color: rgba(0, 71, 75, 1); 
+text-align: right; 
+border: none; 
+margin-top: -30px;
+  }
+  .bill:hover{
+   border:2px solid rgba(38, 194, 174, 1)
+    ;
+  }
+  
+ 
+ .dollar{
+    color: rgba(158, 187, 189, 1);
+    height: 15px;
+    width: 9px;
+    position: absolute;
+margin-left: 10px;
+margin-top: -143px;
+
+}
+.secondp{
+    height: 24px;
+width: 118px;
+font-family: Space Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: rgba(94, 122, 125, 1);
+}
+.percentage{
+    height: 48px;
+width: 117px;
+border-radius: 5px;
+background: rgba(0, 71, 75, 1);
+color: white;
+font-family: Space Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+}
+.percentage:hover{
+  background-color: rgba(38, 194, 174, 1);
+ color: rgba(0, 71, 75, 1);
+
+}
+.rectangular{
+    display: flex;
+   flex-direction: row;
+    width: 379px;
+    flex-wrap: wrap;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.custom{
+    height: 48px;
+width: 117px;
+border-radius: 5px;
+background: rgba(243, 249, 250, 1);
+font-family: Space Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+color: rgba(84, 120, 120, 1);
+margin-left: 14px;
+
+
+}
+.thirdp{
+    height: 24px;
+width: 157px;
+font-family: Space Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+color: rgba(94, 122, 125, 1);
+
+}
+.people{
+    height: 48px;
+width: 379px;
+border-radius: 5px;
+background: rgba(243, 249, 250, 1);
+border: none;
+font-family: Space Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: right;
+columns:  rgba(0, 71, 75, 1);
+margin-top: -30px;
+
+}
+.red{
+    display: none;
+    height: 24px;
+width: 128px;
+left: 251px;
+font-family: Space Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: right;
+
+
+}
+.people:focus{
+   border: 2px solid rgba(225, 112, 82, 1);
+
+}
+
+
+.person{
+    color: rgba(158, 187, 189, 1);
+    height: 12px;
+    width: 9px;
+    position: absolute;
+    margin-top: 198px;
+    margin-left: 10px;
+}
+.right{
+    height: 417px;
+width: 413px;
+border-radius: 15px;
+background: rgba(0, 71, 75, 1);
+margin-top: 32px;
+margin-right: 48px;
+}
+.tip{
+    height: 24px;
+width: 98px;
+font-family: Space Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+
+}
+.tipp{
+    height: 19px;
+width: 64px;
+font-family: Space Mono;
+font-size: 13px;
+font-weight: 700;
+line-height: 19px;
+text-align: left;
+color: rgba(127, 157, 159, 1);
+margin-left: 40px;
+margin-top: -20px;
+}
+.mounttip{
+    height: 71px;
+width: 143px;
+font-family: Space Mono;
+font-size: 48px;
+font-weight: 700;
+line-height: 71px;
+letter-spacing: -1px;
+text-align: right;
+border: none;
+background: rgba(0, 71, 75, 1);
+box-shadow: none;
+color: rgba(38, 194, 174, 1) !important;
+
+}
+.mounttip:focus{
+    outline: none;
+  
+}
+.mounttip:hover{
+    text-decoration-line: underline;
+}
+
+.amountdiv{
+    width: 413px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.reset{
+    height: 48px;
+width: 333px;
+background: rgba(38, 194, 174, 1);
+font-family: Space Mono;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+text-align: center;
+color: rgba(0, 71, 75, 1);
+border-radius: 5px;
+border: none;
+margin: 40px;
+margin-top: 84px;
+}
+::-webkit-input-placeholder { /* Edge */
+   color: rgba(38, 194, 174, 1)
+  }
+  .reset:hover{
+    background: rgba(159, 232, 223, 1);
+
+  }
+  #twenty{
+    margin-left: 14px;
+  }
+  #fifty{
+    margin-left: 14px;
+  }
+  @media screen and (max-width: 900px) {
+   body{
+    zoom: 70%;
+   }
+.main{
+    height: 789px;
+width: 375px;
+flex-wrap: wrap;
+
+
+}
+.bill{
+    height: 48px;
+width: 311px;
+margin-top: -16px;
+
+}
+.firstp{
+    margin-top:32px;
+    margin-bottom: 6px;
+}
+.seconp{
+    margin: 32px;
+   
+}
+.percentage{
+    height: 48px;
+width: 146.6311798095703px;
+
+}
+.custom{
+    height: 48px;
+    width: 146.6311798095703px;
+
+}
+
+.people{
+    height: 48px;
+width: 311px;
+
+}
+.right{
+    height: 257px;
+width: 327px;
+margin: 0;
+padding: 0;
+margin-top:-15px;
+
+}
+
+.mounttip{
+    height: 47px;
+width: 96px;
+margin-right: 70px;
+font-family: Space Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: -0.6666666865348816px;
+text-align: right;
+margin-top: -5px;
+
+}
+#twenty{
+    margin: 0;
+    margin-top: 14px;
+   
+}
+#five{
+   margin-left: 14px;
+}
+#fifty{
+    margin: 0;
+}
+.rectangular{
+    display: flex;
+   flex-direction: row;
+    width: 350px;
+    flex-wrap: wrap;
+  text-align: center;
+  margin-top: 16px;
+  font-family: Space Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.thirdp{
+   margin-top: 25px;
+}
+.people{
+  
+width: 327px;
+margin-left:-10px ;
+    margin-top: -6px;
+    margin-bottom: 32px;
+}
+.reset{
+    height: 30px;
+width: 216px;
+margin: 0;
+margin-left: 50px;
+margin-top: 10px;
+
+
+}
+.dollar{
+  margin-top: -170px;
+}
+.person{
+    margin-top: 204px;
+}
+.logo{
+    height: 53.13600158691406px;
+width: 86.66400146484375px;
+margin-left:370px;
+
+}
+.tip{
+    margin-top: -5px;
+}
+}
+@media screen and (max-width: 500px) {
+.logo{
+    margin-left:200px; 
+}
+
+
+}
+  
+  
